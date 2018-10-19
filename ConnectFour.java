@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ConnectFour {
+public class ConnectFour {  //I am adding this comment to check if it works on GitHub
 
 
     public static void printBoard(char[][] array) {    //Print the board
@@ -35,8 +35,6 @@ public class ConnectFour {
     public static boolean checkIfWinner(char[][] array, int col, int row, char chipType)
     {
 
-
-        /*
         int k = 0;
         for (int row = 0; row < array[0].length; row++) {//For-loop checks the column
             col = true;
@@ -60,7 +58,7 @@ public class ConnectFour {
             else k = 0;
         }
         return false;
-    } */
+    } 
 
     public static void main(String[] args){
         Scanner userInput = new Scanner(System.in);
