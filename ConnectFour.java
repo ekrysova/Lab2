@@ -1,3 +1,4 @@
+// Version 2
 import java.util.Scanner;
 
 public class ConnectFour {  //I am adding this comment to check if it works on GitHub
